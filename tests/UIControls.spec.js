@@ -24,7 +24,7 @@ test('Verify the UI Controls',async ({page})=>
 
     })
 
-    test.only('Verify Child windows handling', async ({ browser }) => {
+    test('Verify Child windows handling', async ({ browser }) => {
 
         const context = await browser.newContext();
         const page = await context.newPage();
