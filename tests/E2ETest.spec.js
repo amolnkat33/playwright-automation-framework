@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.only('Verify e2e flow for this site', async ({ page }) => {
+test('Verify e2e flow for this site', async ({ page }) => {
 
     const productName = 'ZARA COAT 3';
 
