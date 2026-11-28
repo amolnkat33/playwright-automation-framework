@@ -24,6 +24,9 @@ const config =({
     browserName :'chromium',
     headless :false,
 
+    screenshot : 'on',
+    trace : 'on',
+
   },
 });
 module.exports =config

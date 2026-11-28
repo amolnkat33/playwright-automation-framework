@@ -13,7 +13,7 @@ test.only('Verify other way locator', async ({ page }) => {
     //await page.locator("[value='Login']").click();
 
     await page.waitForLoadState('networkidle');
-
+ 
     // Add product to cart
     const products = page.locator('.card-body');
     const count = await products.count();
